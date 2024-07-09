@@ -14,7 +14,7 @@ function initpackages(doit::Bool)
 end
 
 # Load packages, first time
-initpackages(false)
+initpackages(true)
 
 using CSV, DataFrames, DecisionTree, MLSqueeze
 
